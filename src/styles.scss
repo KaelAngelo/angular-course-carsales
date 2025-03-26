@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background-color : #252525 !important;
+$font-color: #fff !important;
+
+.p-card{
+
+    background-color: $background-color;
+    color: $font-color;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    opacity: 0.95;
+    background-image: url("./assets/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+.text-center{
+    text-align: center;
+}  
